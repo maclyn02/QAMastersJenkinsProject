@@ -34,7 +34,7 @@ public class SearchSteps {
     }
 
     @And("^User should see product list$")
-    public void isProductListDispalyed() {
+    public void isProductListVisible() {
         Assert.assertTrue(searchpage.isProductListDisplayed());
     }
 
